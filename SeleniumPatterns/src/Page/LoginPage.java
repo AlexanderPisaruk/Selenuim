@@ -27,15 +27,7 @@ public class LoginPage extends AbstractPage {
 		// TODO Auto-generated constructor stub
 	}
 	
-/*	public boolean waitForElement(WebElement element) throws InterruptedException{
-		int timeout = 30;
-		while(!element.isDisplayed() && timeout>0){
-			
-			Thread.sleep(1000);
-			timeout--;
-		}
-		return element.isDisplayed();
-	} */
+
 	
 	public LoginPage setCredentials(String Login, String Password) throws InterruptedException{
 		
@@ -45,8 +37,7 @@ public class LoginPage extends AbstractPage {
 		System.out.println(Login+" "+Password);
 		System.out.println(" "+usernameField.isDisplayed());
 		
-		//waitForElement(usernameField);
-		
+				
 		usernameField.sendKeys(Login);
 
 		passwordField.sendKeys(Password);

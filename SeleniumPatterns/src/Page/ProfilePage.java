@@ -32,7 +32,7 @@ public class ProfilePage extends AbstractPage {
 		
 		String API = apiKeyField.getAttribute("value"); 
 		return API; 
-				//this; 
+				
 		
 	}
 	

@@ -20,13 +20,13 @@ public class PatternsTestingExample {
 	String newAPI; 
 	
 	
-	//@BeforeMethod(description = "Open Login page")
+	
 	@Test(description = "Open Login page")
 	public void OpenLoginPage() throws InterruptedException {
 		driver.get(LoginPage.CurrentPageURL);
 		
 		Assert.assertTrue(driver.getCurrentUrl().equals(LoginPage.CurrentPageURL));
-		//pleaseWait(LoginPage.VideoportalURL); 
+	
 			
 	} 
 		
@@ -43,7 +43,6 @@ public class PatternsTestingExample {
 	@Test(description = "Open Profile page", priority = 1)
 	public void openProfileAction() throws InterruptedException{
 		HomePage hp = new HomePage(driver); 
-		//Assert.assertTrue(driver.getCurrentUrl().equals(hp.CurrentPageURL));
 		hp.openProfile(); 
 		pleaseWait(ProfilePage.CurrentPageURL);
 		Assert.assertTrue(driver.getCurrentUrl().equals(ProfilePage.CurrentPageURL));
@@ -87,7 +86,7 @@ public class PatternsTestingExample {
 		
 	}
 	
-//	@AfterMethod(description = "Close browser")
+
 	@Test(description = "Close browser", priority = 7)
 		public void closeBrowser() {
 	driver.close(); 
@@ -95,7 +94,7 @@ public class PatternsTestingExample {
 	}	
 	
 	
-	
+	//функция, делающая паузу в 10 секунд в случае если страница ещё не загрузилась
 	public void pleaseWait(String pageURL) throws InterruptedException {
 		
 		int timeout=10;
@@ -115,11 +114,5 @@ public class PatternsTestingExample {
 	}; 
 
 	
-//	public void checkPageURL(WebDriver driver, AbstractPage page) {		
-	//	Assert.assertTrue(driver.getCurrentUrl().equals(page.CurrentPageURL));
-		
-	//	return this; 
-	//}; 
-	
-	
+
 }

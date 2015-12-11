@@ -12,8 +12,7 @@ public abstract class AbstractPage {
 			
 			this.driver = driver; 
 
-			//PageFactory.initElements(this.driver, this); 
-			
+					
 			
 		}	
 		
