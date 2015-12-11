@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13625" started-at="2015-12-11T13:35:17Z" finished-at="2015-12-11T13:35:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13625" started-at="2015-12-11T13:35:17Z" finished-at="2015-12-11T13:35:31Z">
+      <class name="Base.PatternsTestingExample">
+        <test-method status="PASS" signature="OpenLoginPage()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="OpenLoginPage" duration-ms="2830" started-at="2015-12-11T10:35:18Z" description="Open Login page" finished-at="2015-12-11T10:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLoginPage -->
+        <test-method status="PASS" signature="loginAction()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="loginAction" duration-ms="3708" started-at="2015-12-11T10:35:20Z" description="LogIn action" finished-at="2015-12-11T10:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAction -->
+        <test-method status="PASS" signature="openProfileAction()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="openProfileAction" duration-ms="3190" started-at="2015-12-11T10:35:24Z" description="Open Profile page" finished-at="2015-12-11T10:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProfileAction -->
+        <test-method status="PASS" signature="getOldAPI()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="getOldAPI" duration-ms="33" started-at="2015-12-11T10:35:27Z" description="Get Old API" finished-at="2015-12-11T10:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOldAPI -->
+        <test-method status="PASS" signature="reGenerateAPI()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="reGenerateAPI" duration-ms="1829" started-at="2015-12-11T10:35:27Z" description="Regenerate API" finished-at="2015-12-11T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reGenerateAPI -->
+        <test-method status="PASS" signature="getNewAPI()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="getNewAPI" duration-ms="41" started-at="2015-12-11T10:35:29Z" description="Get New API" finished-at="2015-12-11T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewAPI -->
+        <test-method status="PASS" signature="compareAPI()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="compareAPI" duration-ms="3" started-at="2015-12-11T10:35:29Z" description="Compare old and new API" finished-at="2015-12-11T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareAPI -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="LogOut" duration-ms="1877" started-at="2015-12-11T10:35:29Z" description="Logout action" finished-at="2015-12-11T10:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Base.PatternsTestingExample@bf6d1e]" name="closeBrowser" duration-ms="32" started-at="2015-12-11T10:35:31Z" description="Close browser" finished-at="2015-12-11T10:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Base.PatternsTestingExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
