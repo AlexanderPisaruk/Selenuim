@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26343" started-at="2015-12-19T16:44:24Z" finished-at="2015-12-19T16:44:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26343" started-at="2015-12-19T16:44:24Z" finished-at="2015-12-19T16:44:50Z">
+      <class name="Base.ActionsTestingExample">
+        <test-method status="PASS" signature="OpenLoginPage()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="OpenLoginPage" duration-ms="3248" started-at="2015-12-19T13:44:24Z" description="Open Login page" finished-at="2015-12-19T13:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLoginPage -->
+        <test-method status="PASS" signature="loginAction()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="loginAction" duration-ms="2426" started-at="2015-12-19T13:44:27Z" description="LogIn action" finished-at="2015-12-19T13:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAction -->
+        <test-method status="PASS" signature="loginViaJavascript()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="loginViaJavascript" duration-ms="21" started-at="2015-12-19T13:44:30Z" description="open flowplayer&#039;s page" finished-at="2015-12-19T13:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginViaJavascript -->
+        <test-method status="PASS" signature="playVideo()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="playVideo" duration-ms="1854" started-at="2015-12-19T13:44:30Z" description="Start Video" finished-at="2015-12-19T13:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playVideo -->
+        <test-method status="PASS" signature="findVolumeSlider()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="findVolumeSlider" duration-ms="3015" started-at="2015-12-19T13:44:32Z" description="Find Volume Slider" finished-at="2015-12-19T13:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findVolumeSlider -->
+        <test-method status="PASS" signature="decreaseVolume()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="decreaseVolume" duration-ms="3337" started-at="2015-12-19T13:44:35Z" description="Decrease Volume" finished-at="2015-12-19T13:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decreaseVolume -->
+        <test-method status="PASS" signature="increaseVolume()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="increaseVolume" duration-ms="5215" started-at="2015-12-19T13:44:38Z" description="Increase Volume" finished-at="2015-12-19T13:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseVolume -->
+        <test-method status="PASS" signature="stopVideo()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="stopVideo" duration-ms="5172" started-at="2015-12-19T13:44:43Z" description="Stop Video" finished-at="2015-12-19T13:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopVideo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Base.ActionsTestingExample@1bc1cac]" name="closeBrowser" duration-ms="2027" started-at="2015-12-19T13:44:48Z" description="Close Browser" finished-at="2015-12-19T13:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Base.ActionsTestingExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
