@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Tests For Selenium Task">
+<test name="PatternsTestingExample">
+
+<classes>
+
+<class name="Base.ActionsTestingExample">
+
+</class>
+
+</classes>
+</test>
+
+</suite>
+
+
+
+
