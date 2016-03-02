@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests For Selenium Task]">
+  <test name="PatternsTestingExample(failed)">
+    <classes>
+      <class name="Base.ActionsTestingExample">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="increaseVolume"/>
+          <include name="stopVideo"/>
+          <include name="findVolumeSlider"/>
+          <include name="decreaseVolume"/>
+        </methods>
+      </class> <!-- Base.ActionsTestingExample -->
+    </classes>
+  </test> <!-- PatternsTestingExample(failed) -->
+</suite> <!-- Failed suite [Tests For Selenium Task] -->

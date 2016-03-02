@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests For Selenium Task" duration-ms="26056" started-at="2016-03-01T17:41:51Z" finished-at="2016-03-01T17:42:17Z">
+    <groups>
+    </groups>
+    <test name="PatternsTestingExample" duration-ms="26056" started-at="2016-03-01T17:41:51Z" finished-at="2016-03-01T17:42:17Z">
+      <class name="Base.ActionsTestingExample">
+        <test-method status="PASS" signature="OpenLoginPage()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="OpenLoginPage" duration-ms="3296" started-at="2016-03-01T14:41:51Z" description="Open Login page" finished-at="2016-03-01T14:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLoginPage -->
+        <test-method status="PASS" signature="loginAction()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="loginAction" duration-ms="2918" started-at="2016-03-01T14:41:54Z" description="LogIn action" finished-at="2016-03-01T14:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAction -->
+        <test-method status="PASS" signature="loginViaJavascript()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="loginViaJavascript" duration-ms="64" started-at="2016-03-01T14:41:57Z" description="open flowplayer&#039;s page" finished-at="2016-03-01T14:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginViaJavascript -->
+        <test-method status="PASS" signature="playVideo()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="playVideo" duration-ms="1335" started-at="2016-03-01T14:41:57Z" description="Start Video" finished-at="2016-03-01T14:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playVideo -->
+        <test-method status="PASS" signature="findVolumeSlider()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="findVolumeSlider" duration-ms="3009" started-at="2016-03-01T14:41:59Z" description="Find Volume Slider" finished-at="2016-03-01T14:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findVolumeSlider -->
+        <test-method status="PASS" signature="decreaseVolume()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="decreaseVolume" duration-ms="3156" started-at="2016-03-01T14:42:02Z" description="Decrease Volume" finished-at="2016-03-01T14:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decreaseVolume -->
+        <test-method status="PASS" signature="increaseVolume()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="increaseVolume" duration-ms="5153" started-at="2016-03-01T14:42:05Z" description="Increase Volume" finished-at="2016-03-01T14:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseVolume -->
+        <test-method status="PASS" signature="stopVideo()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="stopVideo" duration-ms="5091" started-at="2016-03-01T14:42:10Z" description="Stop Video" finished-at="2016-03-01T14:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopVideo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Base.ActionsTestingExample@1553b17c]" name="closeBrowser" duration-ms="2018" started-at="2016-03-01T14:42:15Z" description="Close Browser" finished-at="2016-03-01T14:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Base.ActionsTestingExample -->
+    </test> <!-- PatternsTestingExample -->
+  </suite> <!-- Tests For Selenium Task -->
+  <suite name="TmpSuite" duration-ms="0" started-at="2016-03-01T17:42:17Z" finished-at="2016-03-01T17:42:17Z">
+    <groups>
+    </groups>
+  </suite> <!-- TmpSuite -->
+</testng-results>
